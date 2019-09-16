@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec435c4a-c28c-43f0-980f-49f86bcf3f14" name="Default Changelist" comment="" />
+    <list default="true" id="ec435c4a-c28c-43f0-980f-49f86bcf3f14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/client/target/" />
     <ignored path="$PROJECT_DIR$/logappender/target/" />
@@ -33,10 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/Producer.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="289">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,13 +52,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/PullConsumer.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+            <state relative-caret-position="230">
+              <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#885#1501#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,6 +89,9 @@
       <find>consumeMessageBatchMaxSize</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,6 +106,10 @@
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/model/Consumer1.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/Producer.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/PullConsumer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer2.java" />
+        <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Producer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer1.java" />
       </list>
     </option>
   </component>
@@ -118,8 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +195,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yk" type="462c0819:PsiDirectoryNode" />
-              <item name="pull" type="462c0819:PsiDirectoryNode" />
+              <item name="tryagain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,6 +215,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yk.tryagain" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -202,13 +232,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PullConsumer">
+  <component name="RunManager" selected="Application.Producer">
     <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yk.model.Consumer1" />
+      <option name="MAIN_CLASS_NAME" value="com.yk.tryagain.Consumer1" />
       <module name="rocketmqtest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yk.model.*" />
+          <option name="PATTERN" value="com.yk.tryagain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,24 +247,11 @@
       </method>
     </configuration>
     <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yk.model.Consumer2" />
+      <option name="MAIN_CLASS_NAME" value="com.yk.tryagain.Consumer2" />
       <module name="rocketmqtest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yk.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yk.model.Producer" />
-      <module name="rocketmqtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yk.model.*" />
+          <option name="PATTERN" value="com.yk.tryagain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,6 +265,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yk.pull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.tryagain.Producer" />
+      <module name="rocketmqtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.tryagain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer1" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer2" />
         <item itemvalue="Application.PullConsumer" />
         <item itemvalue="Application.Producer (2)" />
-        <item itemvalue="Application.Producer (1)" />
-        <item itemvalue="Application.Consumer2" />
-        <item itemvalue="Application.Consumer1" />
       </list>
     </recent_temporary>
   </component>
@@ -293,11 +323,12 @@
       <workItem from="1568250846520" duration="6835000" />
       <workItem from="1568515833855" duration="6595000" />
       <workItem from="1568597420720" duration="5783000" />
+      <workItem from="1568607834320" duration="4155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32299000" />
+    <option name="totallyTimeSpent" value="36454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,9 +341,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="961" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4336493" visible="true" weight="0.23321123" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4336493" visible="true" weight="0.23565324" />
       <window_info id="Structure" order="1" sideWeight="0.5663507" side_tool="true" weight="0.23076923" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -321,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32938388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,6 +587,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-185" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/PullConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -567,12 +615,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/pull/PullConsumer.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/com/yk/tryagain/Consumer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#885#1501#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
           </folding>
         </state>
       </provider>
