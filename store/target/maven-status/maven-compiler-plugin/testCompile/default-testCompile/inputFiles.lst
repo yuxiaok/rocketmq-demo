@@ -1,0 +1,11 @@
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/StoreStatsServiceTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/ConsumeQueueTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/ConsumeQueueExtTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/MappedFileQueueTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/AppendCallbackTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/ha/WaitNotifyObjectTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/index/IndexFileTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/MappedFileTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/DefaultMessageStoreTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/DefaultMessageStoreShutDownTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/store/src/test/java/org/apache/rocketmq/store/StoreCheckpointTest.java

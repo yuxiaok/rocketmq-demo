@@ -1,0 +1,7 @@
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/routeinfo/RouteInfoManagerTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigSerializeWrapperTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/routeinfo/BrokerHousekeepingServiceTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigManagerTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessorTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/NameServerInstanceTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/ClusterTestRequestProcessorTest.java

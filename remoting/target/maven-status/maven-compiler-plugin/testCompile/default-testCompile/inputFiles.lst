@@ -1,0 +1,8 @@
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/NettyRemotingAbstractTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RocketMQSerializableTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RemotingCommandTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/NettyRemotingClientTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/FileRegionEncoderTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/RemotingServerTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RemotingSerializableTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/remoting/src/test/java/org/apache/rocketmq/remoting/TlsTest.java

@@ -1,0 +1,13 @@
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/MQVersionTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/protocol/ConsumeStatusTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/MessageBatchTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/filter/FilterAPITest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/message/MessageDecoderTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/MixAllTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/RegisterBrokerBodyTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/MessageEncodeDecodeTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/message/MessageTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/RemotingUtilTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/DataVersionTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/BrokerConfigTest.java
+/Users/yukai/rocketmq/rocketmq-all-4.4.0/common/src/test/java/org/apache/rocketmq/common/UtilAllTest.java
