@@ -86,7 +86,7 @@ public class RMQNormalProducer extends AbstractMQProducer {
             super.setStartSuccess(true);
         } catch (MQClientException e) {
             super.setStartSuccess(false);
-            logger.error("producer start failed!");
+            logger.error("asyncproducer start failed!");
             e.printStackTrace();
         }
     }

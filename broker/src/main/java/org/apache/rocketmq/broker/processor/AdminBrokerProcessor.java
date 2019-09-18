@@ -648,7 +648,7 @@ public class AdminBrokerProcessor implements NettyRequestProcessor {
         }
 
         response.setCode(ResponseCode.SYSTEM_ERROR);
-        response.setRemark("the producer group[" + requestHeader.getProducerGroup() + "] not exist");
+        response.setRemark("the asyncproducer group[" + requestHeader.getProducerGroup() + "] not exist");
         return response;
     }
 

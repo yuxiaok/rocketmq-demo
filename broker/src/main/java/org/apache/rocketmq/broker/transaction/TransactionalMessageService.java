@@ -55,7 +55,7 @@ public interface TransactionalMessageService {
     OperationResult rollbackMessage(EndTransactionRequestHeader requestHeader);
 
     /**
-     * Traverse uncommitted/unroll back half message and send check back request to producer to obtain transaction
+     * Traverse uncommitted/unroll back half message and send check back request to asyncproducer to obtain transaction
      * status.
      *
      * @param transactionTimeout The minimum time of the transactional message to be checked firstly, one message only

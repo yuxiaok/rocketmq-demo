@@ -333,8 +333,8 @@ public class DefaultMQAdminExtImpl implements MQAdminExt, MQAdminExtInner {
         }
 
         if (result.getConnectionSet().isEmpty()) {
-            log.warn("the producer group not online. brokerAddr={}, group={}", addr, producerGroup);
-            throw new MQClientException("Not found the producer group connection", null);
+            log.warn("the asyncproducer group not online. brokerAddr={}, group={}", addr, producerGroup);
+            throw new MQClientException("Not found the asyncproducer group connection", null);
         }
 
         return result;

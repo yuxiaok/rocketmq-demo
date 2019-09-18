@@ -683,7 +683,7 @@ public class CommitLog {
                 }
                 // Slave problem
                 else {
-                    // Tell the producer, slave not available
+                    // Tell the asyncproducer, slave not available
                     putMessageResult.setPutMessageStatus(PutMessageStatus.SLAVE_NOT_AVAILABLE);
                 }
             }

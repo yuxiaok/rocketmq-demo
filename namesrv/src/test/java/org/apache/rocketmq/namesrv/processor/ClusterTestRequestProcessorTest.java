@@ -63,7 +63,7 @@ public class ClusterTestRequestProcessorTest {
             new NettyServerConfig()
         );
 
-        clusterTestProcessor = new ClusterTestRequestProcessor(namesrvController, "default-producer");
+        clusterTestProcessor = new ClusterTestRequestProcessor(namesrvController, "default-asyncproducer");
         mQClientAPIImpl = mock(MQClientAPIImpl.class);
         DefaultMQAdminExt defaultMQAdminExt = new DefaultMQAdminExt();
         defaultMQAdminExtImpl = new DefaultMQAdminExtImpl(defaultMQAdminExt, 1000);

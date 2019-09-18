@@ -83,7 +83,7 @@ public class ProducerManager {
                             if (diff > CHANNEL_EXPIRED_TIMEOUT) {
                                 it.remove();
                                 log.warn(
-                                    "SCAN: remove expired channel[{}] from ProducerManager groupChannelTable, producer group name: {}",
+                                    "SCAN: remove expired channel[{}] from ProducerManager groupChannelTable, asyncproducer group name: {}",
                                     RemotingHelper.parseChannelRemoteAddr(info.getChannel()), group);
                                 RemotingUtil.closeChannel(info.getChannel());
                             }
@@ -114,7 +114,7 @@ public class ProducerManager {
                                 clientChannelInfoTable.remove(channel);
                             if (clientChannelInfo != null) {
                                 log.info(
-                                    "NETTY EVENT: remove channel[{}][{}] from ProducerManager groupChannelTable, producer group: {}",
+                                    "NETTY EVENT: remove channel[{}][{}] from ProducerManager groupChannelTable, asyncproducer group: {}",
                                     clientChannelInfo.toString(), remoteAddr, group);
                             }
 
@@ -146,7 +146,7 @@ public class ProducerManager {
                     clientChannelInfoFound = channelTable.get(clientChannelInfo.getChannel());
                     if (null == clientChannelInfoFound) {
                         channelTable.put(clientChannelInfo.getChannel(), clientChannelInfo);
-                        log.info("new producer connected, group: {} channel: {}", group,
+                        log.info("new asyncproducer connected, group: {} channel: {}", group,
                             clientChannelInfo.toString());
                     }
                 } finally {
@@ -172,13 +172,13 @@ public class ProducerManager {
                     if (null != channelTable && !channelTable.isEmpty()) {
                         ClientChannelInfo old = channelTable.remove(clientChannelInfo.getChannel());
                         if (old != null) {
-                            log.info("unregister a producer[{}] from groupChannelTable {}", group,
+                            log.info("unregister a asyncproducer[{}] from groupChannelTable {}", group,
                                 clientChannelInfo.toString());
                         }
 
                         if (channelTable.isEmpty()) {
                             this.groupChannelTable.remove(group);
-                            log.info("unregister a producer group[{}] from groupChannelTable", group);
+                            log.info("unregister a asyncproducer group[{}] from groupChannelTable", group);
                         }
                     }
                 } finally {

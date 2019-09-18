@@ -42,7 +42,7 @@ public class RocketmqLog4jAppender extends AppenderSkeleton {
     private boolean locationInfo;
 
     /**
-     * Log producer send instance
+     * Log asyncproducer send instance
      */
     private MQProducer producer;
 
@@ -52,7 +52,7 @@ public class RocketmqLog4jAppender extends AppenderSkeleton {
     private String nameServerAddress;
 
     /**
-     * Log producer group
+     * Log asyncproducer group
      */
     private String producerGroup;
 
@@ -172,7 +172,7 @@ public class RocketmqLog4jAppender extends AppenderSkeleton {
     }
 
     /**
-     * Returns the message producer,Only valid after
+     * Returns the message asyncproducer,Only valid after
      * activateOptions() method has been invoked.
      */
     protected MQProducer getProducer() {

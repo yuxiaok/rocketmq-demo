@@ -96,11 +96,11 @@ public class Producer {
         try {
             commandLine = parser.parse(options, args);
             if (commandLine.hasOption('h')) {
-                hf.printHelp("producer", options, true);
+                hf.printHelp("asyncproducer", options, true);
                 return null;
             }
         } catch (ParseException e) {
-            hf.printHelp("producer", options, true);
+            hf.printHelp("asyncproducer", options, true);
             return null;
         }
 

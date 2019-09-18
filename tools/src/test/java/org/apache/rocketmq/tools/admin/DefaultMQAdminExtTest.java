@@ -289,7 +289,7 @@ public class DefaultMQAdminExtTest {
 
     @Test
     public void testExamineProducerConnectionInfo() throws InterruptedException, RemotingException, MQClientException, MQBrokerException {
-        ProducerConnection producerConnection = defaultMQAdminExt.examineProducerConnectionInfo("default-producer-group", "unit-test");
+        ProducerConnection producerConnection = defaultMQAdminExt.examineProducerConnectionInfo("default-asyncproducer-group", "unit-test");
         assertThat(producerConnection.getConnectionSet().size()).isEqualTo(1);
     }
 

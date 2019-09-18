@@ -102,10 +102,10 @@ public class ClientRemotingProcessor implements NettyRequestProcessor {
                     final String addr = RemotingHelper.parseChannelRemoteAddr(ctx.channel());
                     producer.checkTransactionState(addr, messageExt, requestHeader);
                 } else {
-                    log.debug("checkTransactionState, pick producer by group[{}] failed", group);
+                    log.debug("checkTransactionState, pick asyncproducer by group[{}] failed", group);
                 }
             } else {
-                log.warn("checkTransactionState, pick producer group failed");
+                log.warn("checkTransactionState, pick asyncproducer group failed");
             }
         } else {
             log.warn("checkTransactionState, decode message failed");

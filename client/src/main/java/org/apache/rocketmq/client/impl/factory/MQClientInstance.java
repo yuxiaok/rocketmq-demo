@@ -515,7 +515,7 @@ public class MQClientInstance {
         final boolean producerEmpty = heartbeatData.getProducerDataSet().isEmpty();
         final boolean consumerEmpty = heartbeatData.getConsumerDataSet().isEmpty();
         if (producerEmpty && consumerEmpty) {
-            log.warn("sending heartbeat, but no consumer and no producer");
+            log.warn("sending heartbeat, but no consumer and no asyncproducer");
             return;
         }
 
@@ -917,7 +917,7 @@ public class MQClientInstance {
 
         MQProducerInner prev = this.producerTable.putIfAbsent(group, producer);
         if (prev != null) {
-            log.warn("the producer group[{}] exist already.", group);
+            log.warn("the asyncproducer group[{}] exist already.", group);
             return false;
         }
 

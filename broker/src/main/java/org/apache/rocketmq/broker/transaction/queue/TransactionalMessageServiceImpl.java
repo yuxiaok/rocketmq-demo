@@ -312,7 +312,7 @@ public class TransactionalMessageServiceImpl implements TransactionalMessageServ
     /**
      * If return true, skip this msg
      *
-     * @param removeMap Op message map to determine whether a half message was responded by producer.
+     * @param removeMap Op message map to determine whether a half message was responded by asyncproducer.
      * @param doneOpOffset Op Message which has been checked.
      * @param msgExt Half message
      * @return Return true if put success, otherwise return false.

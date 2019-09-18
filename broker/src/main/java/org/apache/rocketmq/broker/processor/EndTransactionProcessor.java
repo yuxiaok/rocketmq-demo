@@ -65,7 +65,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
         if (requestHeader.getFromTransactionCheck()) {
             switch (requestHeader.getCommitOrRollback()) {
                 case MessageSysFlag.TRANSACTION_NOT_TYPE: {
-                    LOGGER.warn("Check producer[{}] transaction state, but it's pending status."
+                    LOGGER.warn("Check asyncproducer[{}] transaction state, but it's pending status."
                             + "RequestHeader: {} Remark: {}",
                         RemotingHelper.parseChannelRemoteAddr(ctx.channel()),
                         requestHeader.toString(),
@@ -74,7 +74,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
                 }
 
                 case MessageSysFlag.TRANSACTION_COMMIT_TYPE: {
-                    LOGGER.warn("Check producer[{}] transaction state, the producer commit the message."
+                    LOGGER.warn("Check asyncproducer[{}] transaction state, the asyncproducer commit the message."
                             + "RequestHeader: {} Remark: {}",
                         RemotingHelper.parseChannelRemoteAddr(ctx.channel()),
                         requestHeader.toString(),
@@ -84,7 +84,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
                 }
 
                 case MessageSysFlag.TRANSACTION_ROLLBACK_TYPE: {
-                    LOGGER.warn("Check producer[{}] transaction state, the producer rollback the message."
+                    LOGGER.warn("Check asyncproducer[{}] transaction state, the asyncproducer rollback the message."
                             + "RequestHeader: {} Remark: {}",
                         RemotingHelper.parseChannelRemoteAddr(ctx.channel()),
                         requestHeader.toString(),
@@ -97,7 +97,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
         } else {
             switch (requestHeader.getCommitOrRollback()) {
                 case MessageSysFlag.TRANSACTION_NOT_TYPE: {
-                    LOGGER.warn("The producer[{}] end transaction in sending message,  and it's pending status."
+                    LOGGER.warn("The asyncproducer[{}] end transaction in sending message,  and it's pending status."
                             + "RequestHeader: {} Remark: {}",
                         RemotingHelper.parseChannelRemoteAddr(ctx.channel()),
                         requestHeader.toString(),
@@ -110,7 +110,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
                 }
 
                 case MessageSysFlag.TRANSACTION_ROLLBACK_TYPE: {
-                    LOGGER.warn("The producer[{}] end transaction in sending message, rollback the message."
+                    LOGGER.warn("The asyncproducer[{}] end transaction in sending message, rollback the message."
                             + "RequestHeader: {} Remark: {}",
                         RemotingHelper.parseChannelRemoteAddr(ctx.channel()),
                         requestHeader.toString(),
@@ -166,7 +166,7 @@ public class EndTransactionProcessor implements NettyRequestProcessor {
             final String pgroupRead = msgExt.getProperty(MessageConst.PROPERTY_PRODUCER_GROUP);
             if (!pgroupRead.equals(requestHeader.getProducerGroup())) {
                 response.setCode(ResponseCode.SYSTEM_ERROR);
-                response.setRemark("The producer group wrong");
+                response.setRemark("The asyncproducer group wrong");
                 return response;
             }
 

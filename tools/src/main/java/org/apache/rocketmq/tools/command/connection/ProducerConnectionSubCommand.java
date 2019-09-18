@@ -36,12 +36,12 @@ public class ProducerConnectionSubCommand implements SubCommand {
 
     @Override
     public String commandDesc() {
-        return "Query producer's socket connection and client version";
+        return "Query asyncproducer's socket connection and client version";
     }
 
     @Override
     public Options buildCommandlineOptions(Options options) {
-        Option opt = new Option("g", "producerGroup", true, "producer group name");
+        Option opt = new Option("g", "producerGroup", true, "asyncproducer group name");
         opt.setRequired(true);
         options.addOption(opt);
 

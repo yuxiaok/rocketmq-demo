@@ -191,16 +191,16 @@ public class TopicConfigManager extends ConfigManager {
                             topicConfig.setTopicSysFlag(topicSysFlag);
                             topicConfig.setTopicFilterType(defaultTopicConfig.getTopicFilterType());
                         } else {
-                            log.warn("Create new topic failed, because the default topic[{}] has no perm [{}] producer:[{}]",
+                            log.warn("Create new topic failed, because the default topic[{}] has no perm [{}] asyncproducer:[{}]",
                                 defaultTopic, defaultTopicConfig.getPerm(), remoteAddress);
                         }
                     } else {
-                        log.warn("Create new topic failed, because the default topic[{}] not exist. producer:[{}]",
+                        log.warn("Create new topic failed, because the default topic[{}] not exist. asyncproducer:[{}]",
                             defaultTopic, remoteAddress);
                     }
 
                     if (topicConfig != null) {
-                        log.info("Create new topic by default topic:[{}] config:[{}] producer:[{}]",
+                        log.info("Create new topic by default topic:[{}] config:[{}] asyncproducer:[{}]",
                             defaultTopic, topicConfig, remoteAddress);
 
                         this.topicConfigTable.put(topic, topicConfig);

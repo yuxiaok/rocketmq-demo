@@ -89,7 +89,7 @@ public class RMQAsyncSendProducer extends AbstractMQProducer {
         try {
             producer.start();
         } catch (MQClientException e) {
-            logger.error("producer start failed!");
+            logger.error("asyncproducer start failed!");
             e.printStackTrace();
         }
     }

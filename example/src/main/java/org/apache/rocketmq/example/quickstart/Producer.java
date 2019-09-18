@@ -29,7 +29,7 @@ public class Producer {
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
         /*
-         * Instantiate with a producer group name.
+         * Instantiate with a asyncproducer group name.
          */
         DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
 
@@ -40,7 +40,7 @@ public class Producer {
          * Alternatively, you may specify name server addresses via exporting environmental variable: NAMESRV_ADDR
          * <pre>
          * {@code
-         * producer.setNamesrvAddr("name-server1-ip:9876;name-server2-ip:9876");
+         * asyncproducer.setNamesrvAddr("name-server1-ip:9876;name-server2-ip:9876");
          * }
          * </pre>
          */
@@ -74,7 +74,7 @@ public class Producer {
         }
 
         /*
-         * Shut down once the producer instance is not longer in use.
+         * Shut down once the asyncproducer instance is not longer in use.
          */
         producer.shutdown();
     }

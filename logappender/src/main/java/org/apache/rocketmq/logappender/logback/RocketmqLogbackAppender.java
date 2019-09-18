@@ -47,12 +47,12 @@ public class RocketmqLogbackAppender extends AppenderBase<ILoggingEvent> {
     private String nameServerAddress;
 
     /**
-     * Log producer group
+     * Log asyncproducer group
      */
     private String producerGroup;
 
     /**
-     * Log producer send instance
+     * Log asyncproducer send instance
      */
     private MQProducer producer;
 

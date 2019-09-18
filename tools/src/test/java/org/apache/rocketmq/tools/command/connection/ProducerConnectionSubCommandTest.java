@@ -88,7 +88,7 @@ public class ProducerConnectionSubCommandTest {
     public void testExecute() throws SubCommandException {
         ProducerConnectionSubCommand cmd = new ProducerConnectionSubCommand();
         Options options = ServerUtil.buildCommandlineOptions(new Options());
-        String[] subargs = new String[] {"-g default-producer-group", "-t unit-test"};
+        String[] subargs = new String[] {"-g default-asyncproducer-group", "-t unit-test"};
         final CommandLine commandLine =
             ServerUtil.parseCmdLine("mqadmin " + cmd.commandName(), subargs, cmd.buildCommandlineOptions(options), new PosixParser());
         cmd.execute(commandLine, options, null);

@@ -18,7 +18,7 @@ package io.openmessaging.rocketmq.domain;
 
 public interface NonStandardKeys {
     String CONSUMER_GROUP = "rmq.consumer.group";
-    String PRODUCER_GROUP = "rmq.producer.group";
+    String PRODUCER_GROUP = "rmq.asyncproducer.group";
     String MAX_REDELIVERY_TIMES = "rmq.max.redelivery.times";
     String MESSAGE_CONSUME_TIMEOUT = "rmq.message.consume.timeout";
     String MAX_CONSUME_THREAD_NUMS = "rmq.max.consume.thread.nums";
